@@ -6,7 +6,7 @@ import './App.scss';
 import Hello from '../features/Hello';
 import { RootState } from '@/store/rootReducer';
 
-const App = () => {
+function App() {
     const count = useSelector((state: RootState) => state.count.count);
 
     return (
@@ -15,6 +15,6 @@ const App = () => {
             <Hello name="哈哈" />
         </div>
     );
-};
+}
 
 export default hot(App);

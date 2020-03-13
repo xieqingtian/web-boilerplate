@@ -10,7 +10,7 @@ type Props = {
     name: string;
 };
 
-const Hello: React.FC<Props> = ({ name }) => {
+export default function Hello({ name }: Props) {
     const dispatch = useDispatch();
     const count = useSelector((state: RootState) => state.count.count);
 
@@ -23,7 +23,7 @@ const Hello: React.FC<Props> = ({ name }) => {
     };
 
     return (
-        <>
+        <React.Fragment>
             <h2 className={styles.h2}>
                 {count}
                 {name}
@@ -34,8 +34,6 @@ const Hello: React.FC<Props> = ({ name }) => {
             <Button type="primary" onClick={reduce}>
                 减1
             </Button>
-        </>
+        </React.Fragment>
     );
-};
-
-export default Hello;
+}
