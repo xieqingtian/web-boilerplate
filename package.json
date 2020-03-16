@@ -4,6 +4,11 @@
     "repository": "https://github.com/xieqingtian/web-boilerplate.git",
     "author": "xieqingtian <1255699673@qq.com>",
     "license": "MIT",
+    "keywords": [
+        "react",
+        "typescript"
+    ],
+    "description": "web boilerplate",
     "scripts": {
         "start": "qt dev",
         "build": "qt build",
