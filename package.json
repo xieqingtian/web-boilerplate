@@ -1,23 +1,24 @@
 {
     "name": "web-boilerplate",
     "version": "1.0.0",
-    "main": "index.js",
     "repository": "https://github.com/xieqingtian/web-boilerplate.git",
     "author": "xieqingtian <1255699673@qq.com>",
     "license": "MIT",
     "scripts": {
+        "start": "qt dev",
+        "build": "qt build",
         "lint": "tsc --noEmit && eslint src/**/*.{ts,tsx} --quiet --fix",
         "format": "prettier --config ./.prettierrc.js --write ./src/**/*.{ts,tsx,scss}"
     },
     "dependencies": {
         "@reduxjs/toolkit": "^1.2.5",
-        "antd": "^4.0.2",
+        "antd": "^4.0.3",
         "axios": "^0.19.2",
         "lodash": "^4.17.15",
         "react": "^16.13.0",
         "react-dom": "^16.13.0",
-        "react-redux": "^7.2.0",
-        "react-hot-loader": "^4.12.19"
+        "react-hot-loader": "^4.12.19",
+        "react-redux": "^7.2.0"
     },
     "devDependencies": {
         "@hot-loader/react-dom": "^16.12.0",
