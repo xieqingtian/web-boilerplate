@@ -6,11 +6,7 @@ import { changeCount } from '@/store/countSlice';
 import { RootState } from '@/store/rootReducer';
 import styles from './index.module.scss';
 
-type Props = {
-    name: string;
-};
-
-export default function Hello({ name }: Props) {
+export default function Hello() {
     const dispatch = useDispatch();
     const count = useSelector((state: RootState) => state.count.count);
 
@@ -24,10 +20,7 @@ export default function Hello({ name }: Props) {
 
     return (
         <React.Fragment>
-            <h2 className={styles.h2}>
-                {count}
-                {name}
-            </h2>
+            <h2 className={styles.h2}>{count}</h2>
             <Button type="primary" onClick={increase}>
                 加1
             </Button>
