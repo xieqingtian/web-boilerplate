@@ -1,0 +1,11 @@
+.h2 {
+    color: $primary-color;
+    @include text-ellipsis;
+}
+
+:global {
+    body {
+        display: inline-block;
+        background-color: #fff;
+    }
+}
