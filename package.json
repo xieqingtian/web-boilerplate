@@ -13,7 +13,7 @@
         "start": "qt dev",
         "build": "qt build",
         "lint:ts": "eslint \"src/**/*.{ts,tsx}\" --quiet --fix",
-        "lint:style": "stylelint --fix \"src/**/*.scss\" --syntax scss",
+        "lint:style": "stylelint --fix \"src/**/*.{ts,tsx,scss}\"",
         "format": "prettier --config \".prettierrc.js\" --write \"src/**/*.{ts,tsx,scss}\"",
         "tsc": "tsc --noEmit",
         "clean": "rimraf node_modules/.cache/hard-source/"
@@ -54,7 +54,7 @@
         "src/**/*.{js,tsx,ts,scss,json}": [
             "prettier --config \".prettierrc.js\" --write"
         ],
-        "src/**/*.scss": "stylelint --syntax scss",
+        "src/**/*.{ts,tsx,scss}": "stylelint",
         "src/**/*.{ts,tsx}": [
             "eslint \"src/**/*.{ts,tsx}\""
         ]
