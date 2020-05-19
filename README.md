@@ -37,3 +37,7 @@ yarn start
 ```
 yarn build
 ```
+
+# Display
+
+![display](public/display.png)
