@@ -5,3 +5,5 @@ typings
 **/*.scss,
 **/*.css
 qt.config.js
+.eslintrc.js
+stylelint.config.js
