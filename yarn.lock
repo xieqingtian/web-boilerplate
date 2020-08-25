@@ -565,10 +565,10 @@
   resolved "https://registry.npm.taobao.org/@types/json-schema/download/@types/json-schema-7.0.4.tgz#38fd73ddfd9b55abb1e1b2ed578cb55bd7b7d339"
   integrity sha1-OP1z3f2bVaux4bLtV4y1W9e30zk=
 
-"@types/lodash@^4.14.159":
-  version "4.14.159"
-  resolved "https://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.159.tgz#61089719dc6fdd9c5cb46efc827f2571d1517065"
-  integrity sha1-YQiXGdxv3ZxctG78gn8lcdFRcGU=
+"@types/lodash@^4.14.160":
+  version "4.14.160"
+  resolved "https://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.160.tgz?cache=0&sync_timestamp=1598288407375&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Flodash%2Fdownload%2F%40types%2Flodash-4.14.160.tgz#2f1bba6500bc3cb9a732c6d66a083378fb0b0b29"
+  integrity sha1-Lxu6ZQC8PLmnMsbWaggzePsLCyk=
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -639,10 +639,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.9.46":
-  version "16.9.46"
-  resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.46.tgz?cache=0&sync_timestamp=1597068067078&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-16.9.46.tgz#f0326cd7adceda74148baa9bff6e918632f5069e"
-  integrity sha1-8DJs163O2nQUi6qb/26RhjL1Bp4=
+"@types/react@^16.9.47":
+  version "16.9.47"
+  resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.47.tgz?cache=0&sync_timestamp=1598334155774&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-16.9.47.tgz#fb092936f0b56425f874d0ff1b08051fdf70c1ba"
+  integrity sha1-+wkpNvC1ZCX4dND/GwgFH99wwbo=
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -870,10 +870,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
-antd@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.npm.taobao.org/antd/download/antd-4.6.0.tgz#48a9ebf503d65a7c0ba3020b0e94274012f49613"
-  integrity sha1-SKnr9QPWWnwLowILDpQnQBL0lhM=
+antd@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.npm.taobao.org/antd/download/antd-4.6.1.tgz?cache=0&sync_timestamp=1598245449386&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.6.1.tgz#d204215d3d00a3ac51a2e93ec2ee1a49adbdb705"
+  integrity sha1-0gQhXT0Ao6xRouk+wu4aSa29twU=
   dependencies:
     "@ant-design/colors" "^4.0.5"
     "@ant-design/css-animation" "^1.7.2"
@@ -4247,10 +4247,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.npm.taobao.org/prelude-ls/download/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha1-3rxkidem5rDnYRiIzsiAM30xY5Y=
 
-prettier@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.npm.taobao.org/prettier/download/prettier-2.0.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fprettier%2Fdownload%2Fprettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
-  integrity sha1-1tVigkVSQ/L5LMFxZpLAiqMVItQ=
+prettier@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/prettier/download/prettier-2.1.0.tgz?cache=0&sync_timestamp=1598266706871&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fprettier%2Fdownload%2Fprettier-2.1.0.tgz#5a9789f767a243118c60f3e56d95cb6544914fbb"
+  integrity sha1-WpeJ92eiQxGMYPPlbZXLZUSRT7s=
 
 progress@^2.0.0:
   version "2.0.3"
